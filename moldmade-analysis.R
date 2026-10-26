@@ -1,7 +1,7 @@
 rm(list=ls())
 library(ggplot2)
 
-setwd("C:/Users/daems/OneDrive/Work/Research/ABM/Pottery model/model")
+setwd("C:/Users/him628/OneDrive - Vrije Universiteit Amsterdam/Work/Research/ABM/Pottery model/model")
 data = readxl::read_excel("moldmade-bowls-data_v1_2.xlsx", sheet = "Sheet1", skip = 0)
 
 # keeps variables with information for the slicing
